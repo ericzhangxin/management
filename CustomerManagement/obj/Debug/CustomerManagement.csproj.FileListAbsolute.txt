@@ -1,0 +1,8 @@
+C:\Users\xinzh\study\GR-assignment\Management\CustomerManagement\bin\Debug\CustomerManagement.exe.config
+C:\Users\xinzh\study\GR-assignment\Management\CustomerManagement\bin\Debug\CustomerManagement.exe
+C:\Users\xinzh\study\GR-assignment\Management\CustomerManagement\bin\Debug\CustomerManagement.pdb
+C:\Users\xinzh\study\GR-assignment\Management\CustomerManagement\obj\Debug\CustomerManagement.csprojResolveAssemblyReference.cache
+C:\Users\xinzh\study\GR-assignment\Management\CustomerManagement\obj\Debug\CustomerManagement.exe
+C:\Users\xinzh\study\GR-assignment\Management\CustomerManagement\obj\Debug\CustomerManagement.pdb
+C:\Users\xinzh\study\GR-assignment\Management\CustomerManagement\bin\Debug\Newtonsoft.Json.dll
+C:\Users\xinzh\study\GR-assignment\Management\CustomerManagement\bin\Debug\Newtonsoft.Json.xml
