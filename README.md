@@ -11,7 +11,7 @@ Class FileReader reads the customers from file into customer collection. It uses
 
 Class ConsoleDisplayer displays the customer collection in corresponding sorting criteria.
 
-Sorting folder contains the generic class SortExpressionBuilder to sort IEnumerable<T> by multiple properties.
+Sorting folder contains the generic class SortExpressionBuilder to sort IEnumerable<<T>> by multiple chained properties to support OrderBy-then-By.
 
 ### CustomerManagementTests.csproj is a test project to test the CustomerManager and FileReader. 
 CustomerManagementTests covers the add/sorting test cases and file reading functionality.
