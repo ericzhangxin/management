@@ -18,7 +18,8 @@ CustomerManagementTests covers the add/sorting test cases and file reading funct
 ### CustomerManagementWebAPI.csproj is a ASP.NET WebAPI project.
 CustomerManagementWebAPI provides the end points of GET/POST/PUT/DELETE customer(s) functionalities. 
 Once this project is started, there is a introduction on the end points on home page(http://localhost:46692/) as shown below.
-(./WebAPI_home.png)
+![WebAPI home screenshot](./WebAPI_home.png)
+
 ### CustomerManagementFrontend is an Angular4 CLI project.
 CustomerManagementFrontend provides the front end of customer management. It has only one angular module app.module so far as this project is simple enough to be contained in one angular module. As this project grows, I should separate out more modules, components and routings based on functions,security concerns.
 
