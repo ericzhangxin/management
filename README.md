@@ -21,7 +21,7 @@ CustomerManagementWebAPI provides the end points of GET/POST/PUT/DELETE customer
 
 Once this project is started in Visual Studio 2015, there is a introduction on the end points on home page(http://localhost:46692/) as shown below.
 
-![WebAPI home screenshot](./WebAPI_home.png)
+![WebAPI home screenshot](./github/WebAPI_home.png)
 
 ### CustomerManagementFrontend is an Angular4 CLI project.
 CustomerManagementFrontend provides the front end of customer management. It has only one angular module app.module so far as this project is simple enough to be contained in one angular module. As this project grows, I should separate out more modules, components and routings based on functions,security concerns.
@@ -43,6 +43,9 @@ Shared folder contains shared components like pipes,filter-textbox.
 
 #5. type in "ng server -o" to start up the angular frontend in browser.
 
+![all customers](./github/customers.png)
+![add customer](./github/newcustomer.png)
+![edit customer](./github/editcustomer.png)
 
 # Pros
 #1. Split up the Angular front end from ASP.NET WebAPI backend projects to separate concerns.
