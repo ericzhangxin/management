@@ -30,17 +30,25 @@ shared folder contains shared components like pipes,filter-textbox.
 
 # how to run?
 #1. Open Management.sln in Visual Studio 2015.
+
 #2. Set CustomerManagementWebAPI project as Startup project and start it up by debugging it.
+
 #3. Open folder CustomerManagementFrontend in Visual Studio Code.
+
 #4. Open Integrated Terminal in menu View
+
 #5. type in "ng server -o" to start up the angular frontend in browser.
+
 
 # Pros
 #1. Split up the Angular front end from ASP.NET WebAPI backend projects to separate concerns.
+
 #2. Cross-Origin Resource Sharing (CORS) header Access-Control-Allow-Headers is added to response to allow Angular front end to access ASP.NET WebAPI backend by using a different origin.
+
 
 # Cons
 #1. Only one angular module app.module.
+
 #2. No persistent storage of customer collection. For now, HttpContext.Current.Cache is used to store the customer collection.
 
 
