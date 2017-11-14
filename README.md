@@ -26,7 +26,7 @@ Once this project is started in Visual Studio 2015, there is a introduction on t
 ### CustomerManagementFrontend is an Angular4 CLI project.
 CustomerManagementFrontend provides the front end of customer management. It has only one angular module app.module so far as this project is simple enough to be contained in one angular module. As this project grows, I should separate out more modules, components and routings based on functions,security concerns.
 
-Core folder contains the services which are singltons and injected into components.
+Core folder contains the services which are singltons and injected into components. Class DataService in data.service.ts is the service which sends request and gets response by using Observable.
 
 Customers folder contains the components of display/edit/add customer(s).
 
