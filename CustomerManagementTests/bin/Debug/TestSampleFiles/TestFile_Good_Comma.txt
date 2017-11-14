@@ -1,2 +1,0 @@
-Zhang,Eric,Male,Red,11/5/2000
-Unum,Julie,Female,Blue,2/5/1978

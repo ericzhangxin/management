@@ -1,24 +1,68 @@
 ﻿<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS, and JavaScript.</p>
-    <p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+	<h1>Mangement WebAPI</h1>
+</div>
+
+<div><h2>Customer API</h2>
 </div>
 <div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>ASP.NET Web API is a framework that makes it easy to build HTTP services that reach
-        a broad range of clients, including browsers and mobile devices. ASP.NET Web API
-        is an ideal platform for building RESTful applications on the .NET Framework.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301870">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301871">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301872">Learn more &raquo;</a></p>
-    </div>
+	<div class="col-md-4">
+		<p>endpoint:records </p>
+		<p>Get all customers</p>
+		<p><a class="btn btn-default" href="http://localhost:46692/records">http://localhost:46692/records</a></p>
+	</div>
+	
+	<div class="col-md-4">
+		<h2></h2>
+		<p>httpget endpoint:records/gender </p>
+		<p>Get all customers sorted by gender ascending</p>
+		<p><a class="btn btn-default" href="http://localhost:46692/records/gender">http://localhost:46692/records/gender</a></p>
+	</div>
+	
+	<div class="col-md-4">
+		<h2></h2>
+		<p>httpget endpoint:records/birthdate </p>
+		<p>Get all customers sorted by DateOfBirth ascending</p>
+		<p><a class="btn btn-default" href="http://localhost:46692/records/birthdate">http://localhost:46692/records/birthdate</a></p>
+	</div>
+    
+	<div class="col-md-4">
+		<h2></h2>
+		<p>httpget endpoint:records/name </p>
+		<p>Get all customers sorted by LastName ascending</p>
+		<p><a class="btn btn-default" href="http://localhost:46692/records/name">http://localhost:46692/records/name</a></p>
+	</div>
+	
+	<div class="col-md-4">
+		<h2></h2>
+		<p>httppost endpoint:records </p>
+		<p>Post a customer to be added into collection</p>
+	</div>
+	
+	<div class="col-md-4">
+		<h2></h2>
+		<p>httpdelete endpoint:records/id </p>
+		<p>Delete a customer from collection</p>
+	</div>
+	
+	<div class="col-md-4">
+		<h2></h2>
+		<p>httpget endpoint:records/id </p>
+		<p>Get a customer by id in collection</p>
+	</div>
+	
+	<div class="col-md-4">
+		<h2></h2>
+		<p>httpput endpoint:records/id </p>
+		<p>Update a customer in collection</p>
+	</div>
+
 </div>
+
+<div>
+	<h2>Color API</h2>
+</div>
+<div>
+	<div class="col-md-4">
+		<p>endpoint:api/colors </p>
+		<p>Get all colors for customer's favoritecolor selection</p>
+		<p><a class="btn btn-default" href="http://localhost:46692/api/colors">http://localhost:466
