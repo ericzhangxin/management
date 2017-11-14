@@ -1,12 +1,14 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Text;
 using CustomerManagement.Management;
 using CustomerManagement.Models;
 using CustomerManagement.Sorting;
 
 namespace CustomerManagement.DataDisplayer
 {
-	public class ConsoleDisplayer
+	public class ConsoleDisplayer:IDisplay 
 	{
 		private readonly IEnumerable<IEnumerable<Tuple<string, SortDirection>>> _sortings;
 		private CustomerManager _manager;
@@ -19,13 +21,24 @@ namespace CustomerManagement.DataDisplayer
 
 		public void Display()
 		{
+			StringBuilder sb = new StringBuilder();
+
 			foreach (IEnumerable<Tuple<string, SortDirection>> sorting in _sortings)
 			{
+				foreach (Tuple<string, SortDirection> sortcriteria in sorting)
+				{
+					sb.Append(string.Format("Sort by {0} {1} ", sortcriteria.Item1, sortcriteria.Item2));
+				}
+
+				Console.WriteLine(sb.ToString());
+
 				IEnumerable<Customer> sorted = _manager.SortBy(sorting);
 
 				DisplayCustomers(sorted);
 
 				Console.WriteLine(Environment.NewLine);
+
+				sb.Clear();
 			}
 		}
 

@@ -43,6 +43,9 @@ namespace CustomerManagement
 			var displayer = new ConsoleDisplayer(manager, sortings.ToList());
 
 			displayer.Display();
+
+			Console.WriteLine("Press any key to exit.");
+			Console.ReadKey();
 		}
 	}
 }

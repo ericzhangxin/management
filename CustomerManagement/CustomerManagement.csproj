@@ -49,6 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataDisplayer\ConsoleDisplayer.cs" />
+    <Compile Include="DataDisplayer\IDisplay.cs" />
     <Compile Include="DataReader\FileReader.cs" />
     <Compile Include="Management\CustomerManager.cs" />
     <Compile Include="Management\ObjectCopier.cs" />
