@@ -1,5 +1,5 @@
 # Management Solution Repository
-In this repo, I provide a solution to manage Customers by using technologies of ASP.NET WebAPI,Angular4.
+In this repo, I provide a solution to manage Customers by using technologies of ASP.NET WebAPI (developed in Visual Studio 2015), Angular4 (developed in Visual Studio Code).
 
 # Code Structure
 Management.sln contains a console project,a Unit Test project, a ASP.NET WebAPI project and an Angular4 frontend porject.
@@ -17,7 +17,8 @@ CustomerManagementTests covers the add/sorting test cases and file reading funct
 
 ### CustomerManagementWebAPI.csproj is a ASP.NET WebAPI project.
 CustomerManagementWebAPI provides the end points of GET/POST/PUT/DELETE customer(s) functionalities. 
-Once this project is started, there is a introduction on the end points on home page(http://localhost:46692/) as shown below.
+Once this project is started in Visual Studio 2015, there is a introduction on the end points on home page(http://localhost:46692/) as shown below.
+
 ![WebAPI home screenshot](./WebAPI_home.png)
 
 ### CustomerManagementFrontend is an Angular4 CLI project.
