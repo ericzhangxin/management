@@ -1,5 +1,5 @@
 # Management Solution Repository
-In this repo, I provide a solution to manage Customers by using technologies of ASP.NET WebAPI (developed in Visual Studio 2015), Angular4 (developed in Visual Studio Code).
+In this repo, I provide a solution to manage customers by using technologies of ASP.NET WebAPI (developed in Visual Studio 2015), Angular4 (developed in Visual Studio Code).
 
 # Code Structure
 Management.sln contains a console project,a Unit Test project, a ASP.NET WebAPI project and an Angular4 frontend porject.
