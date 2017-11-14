@@ -7,7 +7,7 @@ Management.sln contains a console project,a Unit Test project, a ASP.NET WebAPI 
 ### CustomerManagement.csproj is a console porject which contains classes CustomerManager,FileReader,ConsoleDisplayer,models,Sorting.
 CustomerManager is the class to manipulate customer collection. It has functionalities of CRUDs and sorting customers.
 
-Class FileReader reads the customers from file into customer collection. It uses async ReadLineAsync method to read line by line from file. The purpose of using async is to make the IO operations aligned with computational operations responsively.
+Class FileReader reads the customers from file into customer collection. It uses async ReadLineAsync method to read line by line from file. The purpose of using async is to make the IO operations chip in computational operations so that one thread is responsive to both operations.
 
 Class ConsoleDisplayer displays the customer collection in corresponding sorting criteria.
 
