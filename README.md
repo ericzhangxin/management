@@ -55,7 +55,7 @@ Shared folder contains shared components like pipes,filter-textbox.
 
 #2. No persistent storage of customer collection. For now, HttpContext.Current.Cache is used to store the customer collection.
 
-#3. No deployment yet. Could be deployed to AWS or heroku.
+#3. No deployment yet. Thinking about deploying to AWS and heroku.
 
 
 
